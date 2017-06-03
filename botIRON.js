@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @montreals
- Sign out
- Watch 26
-  Star 91
-  Fork 637 basicBot/source
- Code  Issues 8  Pull requests 2  Projects 0  Wiki Insights 
-Branch: master Find file Copy pathsource/basicBot.js
-68e5d9b  20 days ago
-@Benzi Benzi 2.9.2
-8 contributors @Benzi @Yemasthui @Hunchmun @ServePeak @WouterG @pajlada @Nuvm @Maayan547
-RawBlameHistory     
-3724 lines (3535 sloc)  178 KB
 /**
  *Copyright 2015 basicBot
  *Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
@@ -255,7 +236,7 @@ RawBlameHistory
     var basicBot = {
         version: "2.9.2",
         status: false,
-        name: "basicBot",
+        name: "Isa Popozão, a botzinha do Iron",
         loggedInID: null,
         scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -265,19 +246,19 @@ RawBlameHistory
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "Isa Popozão, a botzinha do Iron",
             language: "english",
             chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
             scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
-            startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupCap: 200, // 1-200
+            startupVolume: 100, // 0-100
+            startupEmoji: true, // true or false
             autowoot: true,
             autoskip: false,
             smartSkip: true,
             cmdDeletion: true,
-            maximumAfk: 120,
+            maximumAfk: 70,
             afkRemoval: true,
             maximumDc: 60,
             bouncerPlus: true,
@@ -311,7 +292,7 @@ RawBlameHistory
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motd: "Acesse o Iron Hotel agora e divirta-se! http://www.ironhotel.net :kiss: :sparkles:",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
