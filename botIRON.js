@@ -240,7 +240,7 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+        chatLink: "https://rawgit.com/montreals/IRON/master/pt-BR.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -248,7 +248,7 @@
         settings: {
             botName: "Isa Popozão, a botzinha do Iron",
             language: "english",
-            chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+            chatLink: "https://rawgit.com/montreals/IRON/master/pt-BR.json",
             scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 200, // 1-200
